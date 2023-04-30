@@ -1,0 +1,76 @@
+/* Definição de fonte e cor de fundo para todo o documento */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f5f5f5;
+}
+
+/* Estilo para o cabeçalho */
+header {
+	background-color: #333;
+	color: white;
+	padding: 10px;
+}
+
+/* Estilo para o título principal */
+h1 {
+	margin: 0;
+	font-size: 2em;
+}
+
+/* Estilo para a navegação */
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+}
+
+/* Estilo para o conteúdo principal */
+main {
+	padding: 20px;
+}
+
+h2 {
+	font-size: 1.5em;
+	margin-bottom: 10px;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+/* Estilo para a lista */
+ul {
+	list-style-type: disc;
+	margin-bottom: 20px;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+/* Estilo para o rodapé */
+footer {
+	background-color: #333;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	font-size: 0.8em;
+}
+
+footer p {
+	margin: 0;
+}
